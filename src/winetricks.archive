@@ -2891,7 +2891,7 @@ winetricks_is_installed()
         esac
         if test -d "$_W_prefix/dosdevices"
         then
-          # 'win7 vcrun2005' creates diffrent file than 'winxp vcrun2005'
+          # 'win7 vcrun2005' creates different file than 'winxp vcrun2005'
           # so let it specify multiple, separated by |
           _W_IFS="$IFS"
           IFS='|'
